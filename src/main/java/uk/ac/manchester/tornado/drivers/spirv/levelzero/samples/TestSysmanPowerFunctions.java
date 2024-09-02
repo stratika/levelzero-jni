@@ -172,6 +172,8 @@ public class TestSysmanPowerFunctions {
 
         if (numPowerDomains[0] == 0) {
             System.out.println("No power domains found.");
+        } else {
+            System.out.println(numPowerDomains[0] + " power domains found.");
         }
 
         result = driver.zeContextDestroy(context);
